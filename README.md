@@ -21,17 +21,31 @@ Accurate segmentation of medical ultrasound images is crucial for guiding treatm
 ### 2.2. Framework Overview
 
 <p align="center">
-    <img src="imgs/framework.png"/> <br />
+    <img src="framework.png"/> <br />
     <em> 
-    Figure 1: Overview of the proposed CFANet.
+    Figure 1: Overview of the proposed FINet.
     </em>
 </p>
 
-### 2.3. Qualitative Results
+## 5. Citation
 
-<p align="center">
-    <img src="imgs/qualitative_results.png"/> <br />
-    <em> 
-    Figure 2: Qualitative Results.
-    </em>
-</p>
+Please cite our paper if you find the work useful: 
+    
+    @article{zhou2023cross,
+      title={Cross-level Feature Aggregation Network for Polyp Segmentation},
+      author={Zhou, Tao and Zhou, Yi and He, Kelei and Gong, Chen and Yang, Jian and Fu, Huazhu and Shen, Dinggang},
+      journal={Pattern Recognition},
+      volume={140},
+      pages={109555},
+      year={2023},
+      publisher={Elsevier}
+    }
+
+
+## 6. License
+
+The source code is free for research and education use only. Any comercial use should get formal permission first.
+
+---
+
+**[⬆ back to top](#0-preface)**
