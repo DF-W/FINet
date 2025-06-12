@@ -31,21 +31,19 @@ Accurate segmentation of medical ultrasound images is crucial for guiding treatm
 
 Please cite our paper if you find the work useful: 
     
-    @article{zhou2023cross,
-      title={Cross-level Feature Aggregation Network for Polyp Segmentation},
-      author={Zhou, Tao and Zhou, Yi and He, Kelei and Gong, Chen and Yang, Jian and Fu, Huazhu and Shen, Dinggang},
-      journal={Pattern Recognition},
-      volume={140},
-      pages={109555},
-      year={2023},
-      publisher={Elsevier}
-    }
+  @ARTICLE{10787068,
+  author={Wang, Dongfang and Zhou, Tao and Zhang, Yizhe and Gao, Shangbing and Yang, Jian},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Frequency-aware Interaction Network for Ultrasound Image Segmentation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSVT.2024.3514181}
+  }
+
 
 
 ## 6. License
 
-The source code is free for research and education use only. Any comercial use should get formal permission first.
-
----
-
-**[⬆ back to top](#0-preface)**
+The source code is free for research and educational use only. Any commercial use should get formal permission first.
