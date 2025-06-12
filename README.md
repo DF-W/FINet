@@ -30,18 +30,16 @@ Accurate segmentation of medical ultrasound images is crucial for guiding treatm
 ## 5. Citation
 
 Please cite our paper if you find the work useful: 
-    
-  @ARTICLE{10787068,
-  author={Wang, Dongfang and Zhou, Tao and Zhang, Yizhe and Gao, Shangbing and Yang, Jian},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
-  title={Frequency-aware Interaction Network for Ultrasound Image Segmentation}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/TCSVT.2024.3514181}
+'''
+  @article{10787068,
+      author={Wang, Dongfang and Zhou, Tao and Zhang, Yizhe and Gao, Shangbing and Yang, Jian},
+      journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+      title={Frequency-aware Interaction Network for Ultrasound Image Segmentation}, 
+      year={2024},
+      pages={1-1},
+      doi={10.1109/TCSVT.2024.3514181}
   }
-
+'''
 
 
 ## 6. License
