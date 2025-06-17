@@ -35,7 +35,6 @@ Please cite our paper if you find the work useful:
       journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
       title={Frequency-aware Interaction Network for Ultrasound Image Segmentation}, 
       year={2024},
-      pages={1-1},
     }
 
 
