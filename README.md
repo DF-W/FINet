@@ -37,12 +37,16 @@ a single NVIDIA GeForce RTX 3090 with 24 GB of Memory.
 > Note that our model also supports other GPUs, which means you can adjust the batch size.
 
 1. Configuring your environment
+    - Create conda environment: `conda create -n FINet python=3.6`
+    - Activate environment：`conda activate FINet`
+    - Install requirements: `pip install -r requirements.txt`
 
-2. Downloading data
-   - Download the ultrasound datasets [BUSI](https://scholar.cu.edu.eg/?q=afahmy/pages/dataset), [TN3K](https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation), [TG3K](https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation), and [MMOTU](https://github.com/cv516Buaa/MMOTU_DS2Net).
+3. Downloading data
+    - Download the ultrasound datasets [BUSI](https://scholar.cu.edu.eg/?q=afahmy/pages/dataset), [TN3K](https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation), [TG3K](https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation), and [MMOTU](https://github.com/cv516Buaa/MMOTU_DS2Net).
 4. Load the pre-trained parameters
-5. Training Configuration
-6. Testing Configuration
+    - Download the backbone checkpoint of FINet from the following [Google Drive](https://drive.google.com/file/d/1wlJEtRpn3ekdKRA_WP6tcYxREw6LNeto/view?usp=sharing) and move it into `./FINet/pretrained`
+6. Training Configuration
+7. Testing Configuration
 
 ## 5. Citation
 Please cite our paper if you find the work useful: 
