@@ -39,7 +39,7 @@ a single NVIDIA GeForce RTX 3090 with 24 GB of Memory.
 1. Configuring your environment
 
 2. Downloading data
-   - Download the ultrasound datasets [BUSI](https://scholar.cu.edu.eg/?q=afahmy/pages/dataset), TN3K, TG3K, and MMOTU.
+   - Download the ultrasound datasets [BUSI](https://scholar.cu.edu.eg/?q=afahmy/pages/dataset), [TN3K](https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation), [TG3K](https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation), and [MMOTU](https://github.com/cv516Buaa/MMOTU_DS2Net).
 4. Load the pre-trained parameters
 5. Training Configuration
 6. Testing Configuration
