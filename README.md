@@ -43,12 +43,15 @@ a single NVIDIA GeForce RTX 3090 with 24 GB of Memory.
 
 3. Downloading data
     - Download the ultrasound datasets [BUSI](https://scholar.cu.edu.eg/?q=afahmy/pages/dataset), [TN3K](https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation), [TG3K](https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation), and [MMOTU](https://github.com/cv516Buaa/MMOTU_DS2Net).
+    - Edge maps can be referred to `./utils/edge.py`
 4. Load the pre-trained parameters
-    - Download the backbone checkpoint of FINet from the following [Google Drive](https://drive.google.com/file/d/1wlJEtRpn3ekdKRA_WP6tcYxREw6LNeto/view?usp=sharing) and move it into `./FINet/pretrained`
+    - Download the backbone checkpoint of FINet from the following [Google Drive](https://drive.google.com/file/d/1wlJEtRpn3ekdKRA_WP6tcYxREw6LNeto/view?usp=sharing) and move it into `./FINet/pretrained/`
 6. Training Configuration
-7. Testing Configuration
+    - Assigning your costumed path, like `--dataset_root` and `--dataset_name` in `Train.py`
+8. Testing Configuration
+    - Assigning your costumed path, like `--pth_path` and `--test_save` in `Test.py`
 
-## 5. Citation
+## 4. Citation
 Please cite our paper if you find the work useful: 
 
     @ARTICLE{10787068,
@@ -61,6 +64,6 @@ Please cite our paper if you find the work useful:
 
 
 
-## 6. License
+## 5. License
 
 The source code is free for research and educational use only. Any commercial use should get formal permission first.
