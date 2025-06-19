@@ -69,7 +69,7 @@ class FINet(nn.Module):
         super(FINet, self).__init__()
 
         self.backbone = FIFormer() 
-        path = '/opt/data/private/Second/FINet/pretrained/FIFormer.pth'
+        path = './pretrained/FIFormer.pth'
         save_model = torch.load(path)
         model_dict = self.backbone.state_dict()
         state_dict = {k: v for k, v in save_model['model'].items() if k in model_dict.keys()}
