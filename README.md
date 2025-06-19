@@ -27,6 +27,23 @@ Accurate segmentation of medical ultrasound images is crucial for guiding treatm
     </em>
 </p>
 
+## 3. Proposed Baseline
+
+### 3.1. Training/Testing
+
+The training and testing experiments are conducted using [PyTorch](https://github.com/pytorch/pytorch) with 
+a single NVIDIA GeForce RTX 3090 with 24 GB of Memory.
+
+> Note that our model also supports other GPUs, which means you can adjust the batch size.
+
+1. Configuring your environment
+
+2. Downloading data
+   - Download the ultrasound datasets [BUSI](https://scholar.cu.edu.eg/?q=afahmy/pages/dataset), TN3K, TG3K, and MMOTU.
+4. Load the pre-trained parameters
+5. Training Configuration
+6. Testing Configuration
+
 ## 5. Citation
 Please cite our paper if you find the work useful: 
 
