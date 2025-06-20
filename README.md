@@ -27,7 +27,7 @@ Accurate segmentation of medical ultrasound images is crucial for guiding treatm
     </em>
 </p>
 
-## 3. Proposed Baseline
+## 3. Proposed Method
 
 ### 3.1. Training/Testing
 
