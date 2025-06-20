@@ -37,7 +37,7 @@ a single NVIDIA GeForce RTX 3090 with 24 GB of Memory.
 > Note that our model also supports other GPUs, which means you can adjust the batch size.
 
 1. Configuring your environment
-    - Create conda environment: `conda create -n FINet python=3.6`
+    - Create conda environment: `conda create -n FINet python=3.8`
     - Activate environment：`conda activate FINet`
     - Install requirements: `pip install -r requirements.txt`
 
