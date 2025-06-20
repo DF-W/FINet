@@ -18,9 +18,9 @@ if __name__ == '__main__':
                             default='breast/BUSI1', 
                             help='dataset')
     parser.add_argument('--pth_path', type=str, 
-                        default='/opt/data/private/Second/FINet/model_pth/breast/BUSI1/opt/data/private/datasets/ultrasound/model.pth')
+                        default='./model_pth/breast/BUSI1/model.pth')
     parser.add_argument('--test_save', type=str,
-                        default='./result_map/breast/BUSI1/FINet')  # 224_no_pretrained  224_pretrained
+                        default='./result_map/breast/BUSI1/FINet') 
     
     parser.add_argument('--batch_size', type=int,
                         default=1, help='training batch size')
