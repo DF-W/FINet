@@ -57,9 +57,12 @@ Please cite our paper if you find the work useful:
     @ARTICLE{10787068,
       author={Wang, Dongfang and Zhou, Tao and Zhang, Yizhe and Gao, Shangbing and Yang, Jian},
       journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
-      title={Frequency-aware Interaction Network for Ultrasound Image Segmentation}, 
-      year={2024},
-    }
+      title={Frequency-Aware Interaction Network for Ultrasound Image Segmentation}, 
+      year={2025},
+      volume={35},
+      number={7},
+      pages={7020-7032},
+      doi={10.1109/TCSVT.2024.3514181}}
 
 
 
