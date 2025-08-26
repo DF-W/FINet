@@ -21,7 +21,7 @@ Accurate segmentation of medical ultrasound images is crucial for guiding treatm
 ### 2.2. Framework Overview
 
 <p align="center">
-    <img src="framework.svg"/> <br />
+    <img src="./Imgs/framework.svg"/> <br />
     <em> 
     Figure 1: Overview of the proposed FINet.
     </em>
